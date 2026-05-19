@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto - Celulares XYZ</title>
+  <link rel="stylesheet" href="stylecel.css">
+  <script defer src="javacel.js"></script>
+</head>
+<body>
+
+  <header class="header">
+    <h1>Celulares HDJ</h1>
+    <nav>
+      <a href="iniciocel.html">Inicio</a>
+      <a href="producel.html">Productos</a>
+      <a href="contcel.html">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="contacto">
+    <h2>Contáctanos</h2>
+    <form id="form-contacto">
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo electrónico" required>
+      <textarea placeholder="Tu mensaje" required></textarea>
+      <button type="submit" class="boton">Enviar</button>
+    </form>
+    <p id="mensaje-exito" style="display:none; color: lime;">¡Mensaje enviado con éxito!</p>
+  </section>
+
+</body>
+</html>
